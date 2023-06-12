@@ -1,4 +1,5 @@
-# CoasTrail - Tourism Application - Winner of best app award 2020/2021 !
+# CoasTrail - Tourism Application
+# Winner of best app award 2020/2021 !
 
 CoastRail is an application developed during the iOS Foundation course. It is built entirely using SwiftUI in the iOS environment. The app is dedicated to coastal tourism along the beautiful Amalfi Coast, Sorrento, and Massa Lubrense.
 
