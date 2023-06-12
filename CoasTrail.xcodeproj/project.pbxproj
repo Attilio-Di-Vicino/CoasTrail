@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732F0E5728EDB0D000ACEEEC /* CoasTrailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E5628EDB0D000ACEEEC /* CoasTrailApp.swift */; };
+		732F0E5928EDB0D000ACEEEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E5828EDB0D000ACEEEC /* ContentView.swift */; };
+		732F0E5B28EDB0D500ACEEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732F0E5A28EDB0D500ACEEEC /* Assets.xcassets */; };
+		732F0E5E28EDB0D500ACEEEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732F0E5D28EDB0D500ACEEEC /* Preview Assets.xcassets */; };
+		732F0E6828EDB0D600ACEEEC /* CoasTrailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E6728EDB0D600ACEEEC /* CoasTrailTests.swift */; };
+		732F0E7228EDB0D600ACEEEC /* CoasTrailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E7128EDB0D600ACEEEC /* CoasTrailUITests.swift */; };
+		732F0E7428EDB0D600ACEEEC /* CoasTrailUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E7328EDB0D600ACEEEC /* CoasTrailUITestsLaunchTests.swift */; };
+		732F0E8128EDB2A800ACEEEC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E8028EDB2A800ACEEEC /* HomeView.swift */; };
+		732F0E8528EDB45F00ACEEEC /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E8328EDB45F00ACEEEC /* Paths.swift */; };
+		732F0E8728EDB48D00ACEEEC /* Backpack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E8628EDB48D00ACEEEC /* Backpack.swift */; };
+		732F0E8928EDB49E00ACEEEC /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E8828EDB49E00ACEEEC /* Favorites.swift */; };
+		732F0E8B28EDB4D200ACEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E8A28EDB4D200ACEEEC /* AppDelegate.swift */; };
+		732F0E8D28EDB4D700ACEEEC /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E8C28EDB4D700ACEEEC /* Bag.swift */; };
+		732F0E8F28EDB4E400ACEEEC /* CoastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E8E28EDB4E400ACEEEC /* CoastApp.swift */; };
+		732F0E9128EDB4EA00ACEEEC /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E9028EDB4EA00ACEEEC /* ColorExt.swift */; };
+		732F0E9328EDB4F100ACEEEC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 732F0E9228EDB4F100ACEEEC /* Info.plist */; };
+		732F0E9528EDB4FA00ACEEEC /* LCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E9428EDB4FA00ACEEEC /* LCButton.swift */; };
+		732F0E9728EDB4FF00ACEEEC /* LCTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E9628EDB4FF00ACEEEC /* LCTextfield.swift */; };
+		732F0E9928EDB50400ACEEEC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E9828EDB50400ACEEEC /* LocationManager.swift */; };
+		732F0E9B28EDB50A00ACEEEC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E9A28EDB50900ACEEEC /* MapView.swift */; };
+		732F0E9D28EDB51000ACEEEC /* MyBagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0E9C28EDB51000ACEEEC /* MyBagView.swift */; };
+		732F0EA128EDB51F00ACEEEC /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EA028EDB51F00ACEEEC /* Page.swift */; };
+		732F0EA528EDB53300ACEEEC /* PageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EA228EDB53300ACEEEC /* PageViewContainer.swift */; };
+		732F0EA628EDB53300ACEEEC /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EA328EDB53300ACEEEC /* PageView.swift */; };
+		732F0EA728EDB53300ACEEEC /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EA428EDB53300ACEEEC /* PageIndicator.swift */; };
+		732F0EA928EDB53900ACEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EA828EDB53900ACEEEC /* SceneDelegate.swift */; };
+		732F0EAB28EDB54100ACEEEC /* SentieroDegliDei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EAA28EDB54100ACEEEC /* SentieroDegliDei.swift */; };
+		732F0EAD28EDB59200ACEEEC /* Trails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EAC28EDB59200ACEEEC /* Trails.swift */; };
+		732F0EB328EDB7AE00ACEEEC /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 732F0EB228EDB7AE00ACEEEC /* Extensions */; };
+		732F0EB728EDB7D800ACEEEC /* SearchBar in Resources */ = {isa = PBXBuildFile; fileRef = 732F0EB628EDB7D800ACEEEC /* SearchBar */; };
+		732F0EB928EDB7E600ACEEEC /* Coordinators in Resources */ = {isa = PBXBuildFile; fileRef = 732F0EB828EDB7E600ACEEEC /* Coordinators */; };
+		732F0EBB28EDB88800ACEEEC /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EBA28EDB88800ACEEEC /* PageViewController.swift */; };
+		732F0EC128EDC1B500ACEEEC /* Coordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F0EC028EDC1B500ACEEEC /* Coordinators.swift */; };
+		733C80E828F59C6C00AAA0C3 /* ViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C80E728F59C6C00AAA0C3 /* ViewControllerResolver.swift */; };
+		733C80EA28F59CA600AAA0C3 /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C80E928F59CA600AAA0C3 /* UIApplicationExt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732F0E6428EDB0D600ACEEEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732F0E4B28EDB0D000ACEEEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732F0E5228EDB0D000ACEEEC;
+			remoteInfo = CoasTrail;
+		};
+		732F0E6E28EDB0D600ACEEEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732F0E4B28EDB0D000ACEEEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732F0E5228EDB0D000ACEEEC;
+			remoteInfo = CoasTrail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		732F0E5328EDB0D000ACEEEC /* CoasTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoasTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		732F0E5628EDB0D000ACEEEC /* CoasTrailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoasTrailApp.swift; sourceTree = "<group>"; };
+		732F0E5828EDB0D000ACEEEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		732F0E5A28EDB0D500ACEEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		732F0E5D28EDB0D500ACEEEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		732F0E6328EDB0D600ACEEEC /* CoasTrailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoasTrailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732F0E6728EDB0D600ACEEEC /* CoasTrailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoasTrailTests.swift; sourceTree = "<group>"; };
+		732F0E6D28EDB0D600ACEEEC /* CoasTrailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoasTrailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732F0E7128EDB0D600ACEEEC /* CoasTrailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoasTrailUITests.swift; sourceTree = "<group>"; };
+		732F0E7328EDB0D600ACEEEC /* CoasTrailUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoasTrailUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		732F0E8028EDB2A800ACEEEC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		732F0E8328EDB45F00ACEEEC /* Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Paths.swift; path = "../../../Downloads/CoasTrail-master/Coast/Paths.swift"; sourceTree = "<group>"; };
+		732F0E8628EDB48D00ACEEEC /* Backpack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Backpack.swift; path = "../../../Downloads/CoasTrail-master/Coast/Backpack.swift"; sourceTree = "<group>"; };
+		732F0E8828EDB49E00ACEEEC /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Favorites.swift; path = "../../../Downloads/CoasTrail-master/Coast/Favorites.swift"; sourceTree = "<group>"; };
+		732F0E8A28EDB4D200ACEEEC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/CoasTrail-master/Coast/AppDelegate.swift"; sourceTree = "<group>"; };
+		732F0E8C28EDB4D700ACEEEC /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = "../../../Downloads/CoasTrail-master/Coast/Bag.swift"; sourceTree = "<group>"; };
+		732F0E8E28EDB4E400ACEEEC /* CoastApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoastApp.swift; path = "../../../Downloads/CoasTrail-master/Coast/CoastApp.swift"; sourceTree = "<group>"; };
+		732F0E9028EDB4EA00ACEEEC /* ColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorExt.swift; path = "../../../Downloads/CoasTrail-master/Coast/ColorExt.swift"; sourceTree = "<group>"; };
+		732F0E9228EDB4F100ACEEEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/CoasTrail-master/Coast/Info.plist"; sourceTree = "<group>"; };
+		732F0E9428EDB4FA00ACEEEC /* LCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCButton.swift; path = "../../../Downloads/CoasTrail-master/Coast/LCButton.swift"; sourceTree = "<group>"; };
+		732F0E9628EDB4FF00ACEEEC /* LCTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCTextfield.swift; path = "../../../Downloads/CoasTrail-master/Coast/LCTextfield.swift"; sourceTree = "<group>"; };
+		732F0E9828EDB50400ACEEEC /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "../../../Downloads/CoasTrail-master/Coast/LocationManager.swift"; sourceTree = "<group>"; };
+		732F0E9A28EDB50900ACEEEC /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = "../../../Downloads/CoasTrail-master/Coast/MapView.swift"; sourceTree = "<group>"; };
+		732F0E9C28EDB51000ACEEEC /* MyBagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyBagView.swift; path = "../../../Downloads/CoasTrail-master/Coast/MyBagView.swift"; sourceTree = "<group>"; };
+		732F0EA028EDB51F00ACEEEC /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page.swift; path = "../../../Downloads/CoasTrail-master/Coast/Page.swift"; sourceTree = "<group>"; };
+		732F0EA228EDB53300ACEEEC /* PageViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageViewContainer.swift; path = "../../../Downloads/CoasTrail-master/Coast/PageViewContainer.swift"; sourceTree = "<group>"; };
+		732F0EA328EDB53300ACEEEC /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = "../../../Downloads/CoasTrail-master/Coast/PageView.swift"; sourceTree = "<group>"; };
+		732F0EA428EDB53300ACEEEC /* PageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageIndicator.swift; path = "../../../Downloads/CoasTrail-master/Coast/PageIndicator.swift"; sourceTree = "<group>"; };
+		732F0EA828EDB53900ACEEEC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../Downloads/CoasTrail-master/Coast/SceneDelegate.swift"; sourceTree = "<group>"; };
+		732F0EAA28EDB54100ACEEEC /* SentieroDegliDei.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SentieroDegliDei.swift; path = "../../../Downloads/CoasTrail-master/Coast/SentieroDegliDei.swift"; sourceTree = "<group>"; };
+		732F0EAC28EDB59200ACEEEC /* Trails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trails.swift; path = "../../../Downloads/CoasTrail-master/Coast/Trails.swift"; sourceTree = "<group>"; };
+		732F0EB228EDB7AE00ACEEEC /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = "../../../Downloads/CoasTrail-master/Coast/Extensions"; sourceTree = "<group>"; };
+		732F0EB628EDB7D800ACEEEC /* SearchBar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SearchBar; path = "../../../Downloads/CoasTrail-master/Coast/SearchBar"; sourceTree = "<group>"; };
+		732F0EB828EDB7E600ACEEEC /* Coordinators */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Coordinators; path = "../../../Downloads/CoasTrail-master/Coast/Coordinators"; sourceTree = "<group>"; };
+		732F0EBA28EDB88800ACEEEC /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		732F0EC028EDC1B500ACEEEC /* Coordinators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinators.swift; sourceTree = "<group>"; };
+		733C80E728F59C6C00AAA0C3 /* ViewControllerResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerResolver.swift; path = "../../../Downloads/CoasTrail-master/Coast/SearchBar/ViewControllerResolver.swift"; sourceTree = "<group>"; };
+		733C80E928F59CA600AAA0C3 /* UIApplicationExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIApplicationExt.swift; path = "../../../Downloads/CoasTrail-master/Coast/Extensions/UIApplicationExt.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732F0E5028EDB0D000ACEEEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F0E6028EDB0D600ACEEEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F0E6A28EDB0D600ACEEEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732F0E4A28EDB0D000ACEEEC = {
+			isa = PBXGroup;
+			children = (
+				732F0E5528EDB0D000ACEEEC /* CoasTrail */,
+				732F0E6628EDB0D600ACEEEC /* CoasTrailTests */,
+				732F0E7028EDB0D600ACEEEC /* CoasTrailUITests */,
+				732F0E5428EDB0D000ACEEEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732F0E5428EDB0D000ACEEEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732F0E5328EDB0D000ACEEEC /* CoasTrail.app */,
+				732F0E6328EDB0D600ACEEEC /* CoasTrailTests.xctest */,
+				732F0E6D28EDB0D600ACEEEC /* CoasTrailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732F0E5528EDB0D000ACEEEC /* CoasTrail */ = {
+			isa = PBXGroup;
+			children = (
+				732F0EB828EDB7E600ACEEEC /* Coordinators */,
+				732F0EB628EDB7D800ACEEEC /* SearchBar */,
+				732F0EB228EDB7AE00ACEEEC /* Extensions */,
+				732F0E8A28EDB4D200ACEEEC /* AppDelegate.swift */,
+				733C80E928F59CA600AAA0C3 /* UIApplicationExt.swift */,
+				733C80E728F59C6C00AAA0C3 /* ViewControllerResolver.swift */,
+				732F0E5628EDB0D000ACEEEC /* CoasTrailApp.swift */,
+				732F0E8C28EDB4D700ACEEEC /* Bag.swift */,
+				732F0E5828EDB0D000ACEEEC /* ContentView.swift */,
+				732F0E8628EDB48D00ACEEEC /* Backpack.swift */,
+				732F0E8E28EDB4E400ACEEEC /* CoastApp.swift */,
+				732F0E9028EDB4EA00ACEEEC /* ColorExt.swift */,
+				732F0E9428EDB4FA00ACEEEC /* LCButton.swift */,
+				732F0E9628EDB4FF00ACEEEC /* LCTextfield.swift */,
+				732F0E9C28EDB51000ACEEEC /* MyBagView.swift */,
+				732F0EA028EDB51F00ACEEEC /* Page.swift */,
+				732F0EA428EDB53300ACEEEC /* PageIndicator.swift */,
+				732F0EA328EDB53300ACEEEC /* PageView.swift */,
+				732F0EA228EDB53300ACEEEC /* PageViewContainer.swift */,
+				732F0E9A28EDB50900ACEEEC /* MapView.swift */,
+				732F0EAA28EDB54100ACEEEC /* SentieroDegliDei.swift */,
+				732F0EA828EDB53900ACEEEC /* SceneDelegate.swift */,
+				732F0EAC28EDB59200ACEEEC /* Trails.swift */,
+				732F0E9828EDB50400ACEEEC /* LocationManager.swift */,
+				732F0E9228EDB4F100ACEEEC /* Info.plist */,
+				732F0E8828EDB49E00ACEEEC /* Favorites.swift */,
+				732F0E8328EDB45F00ACEEEC /* Paths.swift */,
+				732F0EC028EDC1B500ACEEEC /* Coordinators.swift */,
+				732F0EBA28EDB88800ACEEEC /* PageViewController.swift */,
+				732F0E8028EDB2A800ACEEEC /* HomeView.swift */,
+				732F0E5A28EDB0D500ACEEEC /* Assets.xcassets */,
+				732F0E5C28EDB0D500ACEEEC /* Preview Content */,
+			);
+			path = CoasTrail;
+			sourceTree = "<group>";
+		};
+		732F0E5C28EDB0D500ACEEEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				732F0E5D28EDB0D500ACEEEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		732F0E6628EDB0D600ACEEEC /* CoasTrailTests */ = {
+			isa = PBXGroup;
+			children = (
+				732F0E6728EDB0D600ACEEEC /* CoasTrailTests.swift */,
+			);
+			path = CoasTrailTests;
+			sourceTree = "<group>";
+		};
+		732F0E7028EDB0D600ACEEEC /* CoasTrailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				732F0E7128EDB0D600ACEEEC /* CoasTrailUITests.swift */,
+				732F0E7328EDB0D600ACEEEC /* CoasTrailUITestsLaunchTests.swift */,
+			);
+			path = CoasTrailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732F0E5228EDB0D000ACEEEC /* CoasTrail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732F0E7728EDB0D600ACEEEC /* Build configuration list for PBXNativeTarget "CoasTrail" */;
+			buildPhases = (
+				732F0E4F28EDB0D000ACEEEC /* Sources */,
+				732F0E5028EDB0D000ACEEEC /* Frameworks */,
+				732F0E5128EDB0D000ACEEEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoasTrail;
+			productName = CoasTrail;
+			productReference = 732F0E5328EDB0D000ACEEEC /* CoasTrail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		732F0E6228EDB0D600ACEEEC /* CoasTrailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732F0E7A28EDB0D600ACEEEC /* Build configuration list for PBXNativeTarget "CoasTrailTests" */;
+			buildPhases = (
+				732F0E5F28EDB0D600ACEEEC /* Sources */,
+				732F0E6028EDB0D600ACEEEC /* Frameworks */,
+				732F0E6128EDB0D600ACEEEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732F0E6528EDB0D600ACEEEC /* PBXTargetDependency */,
+			);
+			name = CoasTrailTests;
+			productName = CoasTrailTests;
+			productReference = 732F0E6328EDB0D600ACEEEC /* CoasTrailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		732F0E6C28EDB0D600ACEEEC /* CoasTrailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732F0E7D28EDB0D600ACEEEC /* Build configuration list for PBXNativeTarget "CoasTrailUITests" */;
+			buildPhases = (
+				732F0E6928EDB0D600ACEEEC /* Sources */,
+				732F0E6A28EDB0D600ACEEEC /* Frameworks */,
+				732F0E6B28EDB0D600ACEEEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732F0E6F28EDB0D600ACEEEC /* PBXTargetDependency */,
+			);
+			name = CoasTrailUITests;
+			productName = CoasTrailUITests;
+			productReference = 732F0E6D28EDB0D600ACEEEC /* CoasTrailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732F0E4B28EDB0D000ACEEEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					732F0E5228EDB0D000ACEEEC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					732F0E6228EDB0D600ACEEEC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 732F0E5228EDB0D000ACEEEC;
+					};
+					732F0E6C28EDB0D600ACEEEC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 732F0E5228EDB0D000ACEEEC;
+					};
+				};
+			};
+			buildConfigurationList = 732F0E4E28EDB0D000ACEEEC /* Build configuration list for PBXProject "CoasTrail" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 732F0E4A28EDB0D000ACEEEC;
+			productRefGroup = 732F0E5428EDB0D000ACEEEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732F0E5228EDB0D000ACEEEC /* CoasTrail */,
+				732F0E6228EDB0D600ACEEEC /* CoasTrailTests */,
+				732F0E6C28EDB0D600ACEEEC /* CoasTrailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732F0E5128EDB0D000ACEEEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F0E5E28EDB0D500ACEEEC /* Preview Assets.xcassets in Resources */,
+				732F0E5B28EDB0D500ACEEEC /* Assets.xcassets in Resources */,
+				732F0EB328EDB7AE00ACEEEC /* Extensions in Resources */,
+				732F0EB728EDB7D800ACEEEC /* SearchBar in Resources */,
+				732F0E9328EDB4F100ACEEEC /* Info.plist in Resources */,
+				732F0EB928EDB7E600ACEEEC /* Coordinators in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F0E6128EDB0D600ACEEEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F0E6B28EDB0D600ACEEEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732F0E4F28EDB0D000ACEEEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F0E8B28EDB4D200ACEEEC /* AppDelegate.swift in Sources */,
+				732F0EAB28EDB54100ACEEEC /* SentieroDegliDei.swift in Sources */,
+				732F0E8128EDB2A800ACEEEC /* HomeView.swift in Sources */,
+				732F0E8728EDB48D00ACEEEC /* Backpack.swift in Sources */,
+				732F0E8528EDB45F00ACEEEC /* Paths.swift in Sources */,
+				732F0E8F28EDB4E400ACEEEC /* CoastApp.swift in Sources */,
+				732F0EAD28EDB59200ACEEEC /* Trails.swift in Sources */,
+				732F0EA628EDB53300ACEEEC /* PageView.swift in Sources */,
+				732F0E9D28EDB51000ACEEEC /* MyBagView.swift in Sources */,
+				732F0EA928EDB53900ACEEEC /* SceneDelegate.swift in Sources */,
+				732F0EBB28EDB88800ACEEEC /* PageViewController.swift in Sources */,
+				732F0E8928EDB49E00ACEEEC /* Favorites.swift in Sources */,
+				732F0E9B28EDB50A00ACEEEC /* MapView.swift in Sources */,
+				732F0E9128EDB4EA00ACEEEC /* ColorExt.swift in Sources */,
+				732F0E9528EDB4FA00ACEEEC /* LCButton.swift in Sources */,
+				732F0E5928EDB0D000ACEEEC /* ContentView.swift in Sources */,
+				733C80E828F59C6C00AAA0C3 /* ViewControllerResolver.swift in Sources */,
+				732F0EA528EDB53300ACEEEC /* PageViewContainer.swift in Sources */,
+				733C80EA28F59CA600AAA0C3 /* UIApplicationExt.swift in Sources */,
+				732F0E9928EDB50400ACEEEC /* LocationManager.swift in Sources */,
+				732F0EA128EDB51F00ACEEEC /* Page.swift in Sources */,
+				732F0E8D28EDB4D700ACEEEC /* Bag.swift in Sources */,
+				732F0EC128EDC1B500ACEEEC /* Coordinators.swift in Sources */,
+				732F0E9728EDB4FF00ACEEEC /* LCTextfield.swift in Sources */,
+				732F0EA728EDB53300ACEEEC /* PageIndicator.swift in Sources */,
+				732F0E5728EDB0D000ACEEEC /* CoasTrailApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F0E5F28EDB0D600ACEEEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F0E6828EDB0D600ACEEEC /* CoasTrailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F0E6928EDB0D600ACEEEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F0E7228EDB0D600ACEEEC /* CoasTrailUITests.swift in Sources */,
+				732F0E7428EDB0D600ACEEEC /* CoasTrailUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732F0E6528EDB0D600ACEEEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732F0E5228EDB0D000ACEEEC /* CoasTrail */;
+			targetProxy = 732F0E6428EDB0D600ACEEEC /* PBXContainerItemProxy */;
+		};
+		732F0E6F28EDB0D600ACEEEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732F0E5228EDB0D000ACEEEC /* CoasTrail */;
+			targetProxy = 732F0E6E28EDB0D600ACEEEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		732F0E7528EDB0D600ACEEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		732F0E7628EDB0D600ACEEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		732F0E7828EDB0D600ACEEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoasTrail/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XQ9N9V3T7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = giuseppefiorillo.CoasTrail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		732F0E7928EDB0D600ACEEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoasTrail/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XQ9N9V3T7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = giuseppefiorillo.CoasTrail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		732F0E7B28EDB0D600ACEEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = giuseppefiorillo.CoasTrailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoasTrail.app/CoasTrail";
+			};
+			name = Debug;
+		};
+		732F0E7C28EDB0D600ACEEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = giuseppefiorillo.CoasTrailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoasTrail.app/CoasTrail";
+			};
+			name = Release;
+		};
+		732F0E7E28EDB0D600ACEEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = giuseppefiorillo.CoasTrailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoasTrail;
+			};
+			name = Debug;
+		};
+		732F0E7F28EDB0D600ACEEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = giuseppefiorillo.CoasTrailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoasTrail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732F0E4E28EDB0D000ACEEEC /* Build configuration list for PBXProject "CoasTrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F0E7528EDB0D600ACEEEC /* Debug */,
+				732F0E7628EDB0D600ACEEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732F0E7728EDB0D600ACEEEC /* Build configuration list for PBXNativeTarget "CoasTrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F0E7828EDB0D600ACEEEC /* Debug */,
+				732F0E7928EDB0D600ACEEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732F0E7A28EDB0D600ACEEEC /* Build configuration list for PBXNativeTarget "CoasTrailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F0E7B28EDB0D600ACEEEC /* Debug */,
+				732F0E7C28EDB0D600ACEEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732F0E7D28EDB0D600ACEEEC /* Build configuration list for PBXNativeTarget "CoasTrailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F0E7E28EDB0D600ACEEEC /* Debug */,
+				732F0E7F28EDB0D600ACEEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732F0E4B28EDB0D000ACEEEC /* Project object */;
+}
