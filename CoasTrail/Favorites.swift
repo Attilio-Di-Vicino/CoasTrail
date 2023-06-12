@@ -15,12 +15,8 @@ struct Favorites: View {
     var body: some View {
         
         NavigationView {
-            
             ScrollView {
-
                 HStack{
-                    
-                    
                     Text("Favorites")
                         .fontWeight(.bold)
                         .foregroundColor(.champagne)
