@@ -66,5 +66,5 @@ We hope you enjoy using the CoastRail application to explore the incredible Ital
 ## Videos
 By tapping on the following images you will be redirect to short videos that shows briefly the execution of Coastrail
 
-<a href="https://streamable.com/e/sohyok" target="_blank"><img src="https://i.ibb.co/khCRB6n/111.jpg" alt="Anteprima del video" width="180" height="380" border="0"></a>
-<a href="https://streamable.com/7xjf3z" target="_blank"><img src="https://i.ibb.co/s2MtVCG/22.jpg" alt="Anteprima del video" width="180" height="380" border="0"></a>
+<a href="https://streamable.com/13e80a" target="_blank"><img src="https://i.ibb.co/Sy3nt0Y/on-Boarding-Preview.jpg" alt="Anteprima del video" width="180" height="380" border="0"></a>
+<a href="https://streamable.com/usqqp2" target="_blank"><img src="https://i.ibb.co/2kx3BGC/app-Preview.jpg" alt="Anteprima del video" width="180" height="380" border="0"></a>
