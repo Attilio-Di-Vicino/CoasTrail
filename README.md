@@ -65,4 +65,4 @@ We hope you enjoy using the CoastRail application to explore the incredible Ital
 
 ## Example
 
-[![Video](https://cdn.streamable.com/video-thumbnail/sohyok.jpg)](https://streamable.com/e/sohyok)
+[![Video](https://streamable.com/e/sohyok)](https://streamable.com/e/sohyok)
