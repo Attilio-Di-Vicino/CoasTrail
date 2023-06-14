@@ -69,4 +69,5 @@ We hope you enjoy using the CoastRail application to explore the incredible Ital
 
 [![Anteprima del video](https://ibb.co/8MJrN9k)](https://streamable.com/e/sohyok)
 
-<a href="https://streamable.com/e/sohyok"><img src="https://i.ibb.co/5TdrGLZ/11.jpg" alt="11" border="0"></a>
+<a href="https://streamable.com/e/sohyok" target="_blank"><img src="https://i.ibb.co/5TdrGLZ/11.jpg" alt="Anteprima del video" width="150" height="300" border="0"></a>
+
