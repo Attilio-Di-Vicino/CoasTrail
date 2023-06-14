@@ -62,3 +62,7 @@ git push origin your_branch_name
 CoastRail is distributed under the MIT License. For more details, refer to the LICENSE file included in the repository.
 
 We hope you enjoy using the CoastRail application to explore the incredible Italian coastlines! If you have any questions or issues, please don't hesitate to contact us.
+
+## Example
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:220.833%;"><iframe src="https://streamable.com/e/sohyok" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
