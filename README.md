@@ -63,7 +63,8 @@ CoastRail is distributed under the MIT License. For more details, refer to the L
 
 We hope you enjoy using the CoastRail application to explore the incredible Italian coastlines! If you have any questions or issues, please don't hesitate to contact us.
 
-## Example
+## Videos
+By tapping on the following images you will be redirect to short videos that shows briefly the execution of Coastrail
 
 <a href="https://streamable.com/e/sohyok" target="_blank"><img src="https://i.ibb.co/khCRB6n/111.jpg" alt="Anteprima del video" width="180" height="380" border="0"></a>
 <a href="https://streamable.com/7xjf3z" target="_blank"><img src="https://i.ibb.co/s2MtVCG/22.jpg" alt="Anteprima del video" width="180" height="380" border="0"></a>
